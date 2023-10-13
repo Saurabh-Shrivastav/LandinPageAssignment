@@ -1,0 +1,246 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    height: 115vh;
+    background-color: black;
+}
+
+.main{
+    background-color:  rgb(47, 24, 147);
+    height: 115vh;
+    margin: 0 4.5%;
+}
+
+/* Navbaar */
+.navbaar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbaar h4{
+    margin-top: 7vh;
+    padding: 0 5vh;
+    font-size: 24px;
+    line-height: 31.25px;
+    font-weight: 700;
+    color: white;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 7vh;
+    cursor: pointer;
+}
+
+#purchase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 7.5rem;
+    height: 5.5vh;
+    background-color: #E93A7D;
+}
+
+.para p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+#overview{
+    color: gray;
+}
+
+/* Navbaar End */
+
+/* Hero sectio 1div */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 11vh 170px;
+    gap: 42px;
+}
+
+.col-md-6 {
+    flex: 1 1 50%;
+}
+
+.col1{
+    display: flex;
+    padding: 2vh 0 2vh  2vh;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.col1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+#para2{
+    margin-top: 3vh;
+    padding-right: 10vh;
+}
+
+#para2 p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;    
+}
+
+.btn{
+    height: 7vh;
+    width: 22vh;
+    margin-top: 5vh;
+    margin-right: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 2.5vh;
+    background-color: #E93A7D;
+    cursor: pointer;
+}
+/* Hero sectio 1div end */
+
+/* Hero sectio 2div */
+.col2{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col2 h1{
+    color: black;
+    margin-top: 4 0px;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    word-spacing: -10px;
+}
+
+.email input{
+    width: 45vh;
+    height: 45px;
+    border-radius: 25px;
+    border: 2.5px solid
+    rgba(235, 234, 237, 1);
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.email input::placeholder{
+    padding: 25px;
+    font-weight: 600;
+    letter-spacing: .5px;
+   color:  rgba(21, 20, 57, 0.4);
+}
+
+.checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+#checkboxPara{
+    color: rgba(21, 20, 57, 0.4);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#btn{
+    width: 45vh;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #482BE7;
+    border: 1px solid  #482BE7;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left{
+    width: 130px;
+    height: 2px;
+    border: 2px;
+    color: rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237, 1);
+}
+
+.orpara{
+    color:rgba(21, 20, 57, 0.4);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 90%;
+}
+
+.right{
+    width: 130px;
+    height: 2px;
+    border: 2px;
+    color: rgba(235, 234, 237, 1);
+    border: 2px solid rgba(235, 234, 237, 1);
+}
+
+#twitter{
+    width: 45vh;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #1DA1F2;
+    border: 1px solid  #1DA1F2;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.paragraf {
+    display: flex;
+    gap: 10px;
+}
+
+.paragraf p{
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+#signin{
+    cursor: pointer;
+}
